@@ -65,11 +65,7 @@ This project is a mailing scheduling feature built with Next.js 13, using the Ap
 
 To deploy this project, you can use Vercel, which is optimized for Next.js applications:
 
-1. Push your code to a GitHub repository.
-2. Sign up for a Vercel account at https://vercel.com.
-3. Create a new project and import your GitHub repository.
-4. Vercel will automatically detect that it's a Next.js project and set up the build configuration.
-5. Deploy the project.
+https://v0-mailing-scheduler-vria5a.vercel.app/
 
 ## Contributing
 
