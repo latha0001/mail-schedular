@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mailing Scheduler
+
+This project is a mailing scheduling feature built with Next.js 13, using the App Router and latest best practices in the Next.js ecosystem.
+
+## Features
+
+- Create new mailings with mailer, list, and schedule
+- Mock API for CRUD operations on mailings
+- Form validation using Zod
+- Styled with Tailwind CSS and shadcn/ui components
+
+## Prerequisites
+
+- Node.js 14.6.0 or newer
+- npm or yarn
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   ```bash
+   git clone https://github.com/your-username/mailing-scheduler.git
+   cd mailing-scheduler
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Run the development server:
 
-## Learn More
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `app/`: Contains the main application code
+  - `api/`: API routes for mock data
+  - `components/`: Reusable React components
+  - `mailing/`: Mailing-related pages
+  - `page.tsx`: Home page
+- `lib/`: Utility functions and type definitions
 
-## Deploy on Vercel
+## Technologies Used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Next.js 13 with App Router
+- React Server Components
+- Server Actions
+- Tailwind CSS
+- shadcn/ui components
+- Zod for form validation
+- React Hook Form
+- date-fns for date manipulation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Deployment
+
+To deploy this project, you can use Vercel, which is optimized for Next.js applications:
+
+1. Push your code to a GitHub repository.
+2. Sign up for a Vercel account at https://vercel.com.
+3. Create a new project and import your GitHub repository.
+4. Vercel will automatically detect that it's a Next.js project and set up the build configuration.
+5. Deploy the project.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License.
